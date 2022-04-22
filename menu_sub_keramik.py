@@ -19,6 +19,7 @@ def submenu_keramik():
 
         cek_status = str(input("Apakah ingin menghitung estimasi keramik lagi? (y/n) : "))
         if cek_status.lower() != "y":
+            break
             main_menu()
 
 # Acuan perhitungan didapat dari https://www.omnicalculator.com/construction/tile
