@@ -1,4 +1,5 @@
-from submenu_bata import *
+from submenu_bata import submenu_bata
+from submenu_keramik import submenu_keramik
 
 
 def main_menu():
@@ -12,6 +13,7 @@ def main_menu():
         submenu_bata()
     elif pilih_material == 2:
         pass
+        submenu_keramik()
     elif pilih_material == 0:
         exit()
     else:
@@ -20,6 +22,3 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
-
-
-
