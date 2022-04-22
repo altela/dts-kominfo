@@ -17,7 +17,7 @@ def submenu_keramik():
         gap_semen = int(input("Jarak semen penghubung dalam satuan centimeter : "))
         hitung_jumlah_keramik(panjang_lantai_meter, lebar_lantai_meter, panjang_keramik, lebar_keramik, gap_semen)
 
-        cek_status = str(input("Apakah ingin menghitung material bata lagi? (y/n) : "))
+        cek_status = str(input("Apakah ingin menghitung estimasi keramik lagi? (y/n) : "))
         if cek_status.lower() != "y":
             main_menu()
 

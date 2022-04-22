@@ -4,9 +4,8 @@ from hitung_bata import *
 # Mulai program dengan while repeat
 def submenu_bata():
     from menu_main import main_menu
-    running = True
 
-    while running:
+    while True:
         print("\n========== Sub Menu Kalkulasi Hitung Material Bata ==========\n")
         sama = str(input("Apakah Anda ingin membuat lebih dari satu tembok? (y/n) : "))
         if sama.lower() == "y":
@@ -26,7 +25,7 @@ def submenu_bata():
                 else:
                     print("Harap masukkan input dengan benar")
 
-            cek_status = str(input("Apakah ingin menghitung material bata lagi? (y/n) : "))
+            cek_status = str(input("Apakah ingin menghitung estimasi bata/batako lagi? (y/n) : "))
             if cek_status.lower() != "y":
                 break
                 main_menu()
@@ -49,7 +48,7 @@ def submenu_bata():
                 else:
                     print("Harap masukkan input dengan benar")
 
-            cek_status = str(input("Apakah ingin menghitung material bata lagi? (y/n) : "))
+            cek_status = str(input("Apakah ingin menghitung estimasi bata/batako lagi? (y/n) : "))
             if cek_status.lower() != "y":
                 break
                 main_menu()
