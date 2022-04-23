@@ -14,7 +14,7 @@ def submenu_bata():
                 panjang_meter = int(input("Panjang tembok tersebut dalam satuan meter : "))
                 tinggi_meter = int(input("Tinggi tembok tersebut dalam satuan meter : "))
                 semen = int(input("Ketebalan semen penghubung dalam satuan centimeter : "))
-                bahan_tembok = str(input("Bahan tembok nantinya menggunakan bata atau batako? (bata/batako) : "))
+                bahan_tembok = str(input("Bahan tembok nantinya menggunakan bata merah standar (20cm x 5cm) atau batako standar (40cm x 20cm)? (bata/batako) : "))
                 harga = int(input("Harga per PCS : "))
                 if bahan_tembok.lower() == "bata":
                     hitung_jumlah_bata(tembok, semen, panjang_meter, tinggi_meter, harga)
