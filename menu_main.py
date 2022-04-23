@@ -4,7 +4,7 @@ from menu_sub_keramik import submenu_keramik
 
 def main_menu():
     while True:
-        print("\n========== Selamat Datang Di Program Hitung Material ==========\n")
+        print("\n========== Selamat Datang Di Program Hitung Material Bangunan ==========\n")
         print("Silahkan pilih kalkulasi yang anda perlukan :\n")
         print("1. Menghitung kebutuhan material bata atau batako")
         print("2. Menghitung kebutuhan material keramik lantai")
@@ -15,7 +15,7 @@ def main_menu():
         elif pilih_material == 2:
             submenu_keramik()
         elif pilih_material == 0:
-            print("Keluar dari program. Terima kasih!")
+            print("Keluar dari program. Terima kasih!\n")
             break
         else:
             print("Harap masukkan pilihan dengan benar!")
