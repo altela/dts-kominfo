@@ -9,12 +9,12 @@ def main_menu():
         print("1. Menghitung kebutuhan material bata atau batako")
         print("2. Menghitung kebutuhan material keramik lantai")
         print("0. Exit Program")
-        pilih_material = int(input("\nHarap masukkan pilihan anda : "))
-        if pilih_material == 1:
+        pilih_submenu = int(input("\nHarap masukkan pilihan anda : "))
+        if pilih_submenu == 1:
             submenu_bata()
-        elif pilih_material == 2:
+        elif pilih_submenu == 2:
             submenu_keramik()
-        elif pilih_material == 0:
+        elif pilih_submenu == 0:
             print("Keluar dari program. Terima kasih!\n")
             break
         else:

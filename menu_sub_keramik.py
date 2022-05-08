@@ -6,8 +6,8 @@ def submenu_keramik():
     while True:
         print("\n========== Sub Menu Kalkulasi Hitung Material Keramik ==========\n")
         print("Input space yang tersedia")
-        panjang_lantai_meter = int(input("Panjang space lantai dalam satuan meter : "))
-        lebar_lantai_meter = int(input("Lebar space lantai dalam satuan meter : "))
+        panjang_lantai_meter = float(input("Panjang space lantai dalam satuan meter : "))
+        lebar_lantai_meter = float(input("Lebar space lantai dalam satuan meter : "))
 
         print("\nBerapa ukuran keramik yang digunakan?")
         print("1. Ukuran kecil (20 x 20)")
@@ -17,7 +17,7 @@ def submenu_keramik():
         print("5. Ukuran ekstra besar (50 x 50)") 
         pilihan_keramik = int(input("Masukkan pilihan anda : "))
 
-        gap_semen = int(input("Jarak semen penghubung dalam satuan centimeter : "))
+        gap_semen = float(input("Jarak semen penghubung dalam satuan centimeter : "))
         box_keramik = int(input("Jumlah keramik dalam satu box pembelian : "))
         harga_box = int(input("Harga per box : "))
 
