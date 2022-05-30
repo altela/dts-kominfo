@@ -1,4 +1,4 @@
-# Tugas akhir DTS Kominfo Python
+# Tugas Akhir Pelatihan Kominfo DTS Pro 2022 Python
 
 Dalam tugas akhir Digitalent Kominfo ini, saya selaku peserta diharapkan dapat membuat project akhir. Project akhir yang saya buat adalah aplikasi sederhana yang berfungsi untuk menghitung kebutuhan material bangunan. 
 
